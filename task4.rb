@@ -2,14 +2,14 @@ BRACKETS = { "(" => ")", "{" => "}", "[" => "]" }
 open_brackets = "{[("
 close_brackets = "}])"
 
-puts "Введите \"Коломиец\" чтобы закончть ввод"
+puts "Введите \"Quit\" чтобы закончть ввод"
 my_stack = []
 is_valid = true
 
 loop do
   print "Введите следующую скобку : "
   ch = gets.chomp
-  if ch == "Коломиец"
+  if ch == "Quit"
     break
   end
 
