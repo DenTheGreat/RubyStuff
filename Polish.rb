@@ -151,7 +151,7 @@ def main
     polishLine = parse_in_polish_line(string)
 
     puts polishLine
-    puts "Resutl: #{calculate_polish_line(polishLine)}"
+    puts "Result: #{calculate_polish_line(polishLine)}"
 end
 
 main()
