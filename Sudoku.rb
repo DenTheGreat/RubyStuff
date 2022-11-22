@@ -12,7 +12,7 @@ def is_conditions_meet (matrix, row, column, inumber)
         end
     end
 
-    #Check if this column contains the insertig number
+    #Check if this column contains the number
     for i in 0..MATRIX_COLUMN - 1 do
         if matrix[i][column] == inumber
             return false
