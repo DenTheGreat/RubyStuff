@@ -5,7 +5,7 @@ SUB_MATRIX = 3 # 3*3 box
 #Function checks whether the given matrix is a valid sudoku or not. 
 def is_conditions_meet (matrix, row, column, inumber)
 
-    #Check if this row contains the insertig number
+    #Check if this row contains the number
     for i in 0..MATRIX_ROW - 1 do 
         if matrix[row][i] == inumber
             return false
@@ -31,7 +31,7 @@ def is_conditions_meet (matrix, row, column, inumber)
         end
     end
 
-    # all condition are meet :)
+    # all condition are meet 
     true
 end
 
